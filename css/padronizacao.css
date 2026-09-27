@@ -1,0 +1,104 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(130deg, rgba(255, 255, 0, 0.5), aquamarine,rgb(60, 60, 255));
+    z-index: -2;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 2.5% 10% 0 10%;
+    padding: 2% 5%;
+    border-radius: 12px 12px 0 0;
+
+    background-color: rgb(5, 59, 209);
+    color: rgb(255, 230, 0);
+    font-size: 250%;
+}
+
+main{
+    margin: 0 10% 2.5% 10%;
+    padding: 1% 5%;
+    background-color: aliceblue;
+    border-radius: 0 0 12px 12px;
+}
+
+div{
+    border-bottom: 1px solid rgb(226, 192, 43);
+    border-top: 1.5px solid rgb(226, 192, 43);
+}
+
+p, li{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+}
+
+footer{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    background-color: rgba(128, 128, 128, 0.6);
+    bottom: 10px;
+    padding: 1%;
+    border-radius: 12px;
+}
+
+button{
+    width: 15%;
+    margin: 1% 2.5%;
+    padding: 1% 2%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+button:hover{
+    background-color: rgb(226, 226, 226);
+    transform: translateY(-2px);
+}
+
+span{
+    color: rgb(255, 132, 50);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h2, h1{
+    letter-spacing: 1.2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home p, li{
+    font-size: 120%;
+}
+
+#home h2{
+    font-size: 160%;
+}
+
+#alvo p, #alvo li{
+    font-size: 150%;
+}
+
+#alvo h2{
+    font-size: 175%;
+}
+
+#objetivo p{
+    font-size: 125%;
+}
+
+#objetivo h2{
+    font-size: 170%;
+}
+
+#sobre p{
+    font-size: 130%;
+}
+
+#sobre h2{
+    font-size: 160%;
+}
